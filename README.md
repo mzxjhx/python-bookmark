@@ -32,7 +32,7 @@ python .\bookmark.py "D:\\123.pdf" "D:\\123.txt" 18
 | ------------- | ------------------------------------------------------------ |
 | pdf_path      | pdf路径。当前目录下，如pdf文件名123.pdf，则pycharm工具里可以直接 '.\123.pdf' |
 | bookmark.txt  | 书签使用txt编辑，保存成utf-8编码格式。缩进使用tab或空格      |
-| page_offset   |                                                              |
+| page_offset   | pdf页码和书的实际书签页码会有一个差值，这个参数补这个差值    |
 
 delbookmark.py 是删除pdf书签
 
